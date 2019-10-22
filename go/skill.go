@@ -16,15 +16,15 @@ func main() {
 			return
 		}
 
-		responseStr := "hello"
+		respText := "hello"
 		reqText := req["request"].(map[string]interface{})["original_utterance"]
 		if reqText != "" {
-			responseStr = reqText.(string)
+			respText = reqText.(string)
 		}
 
 		resp := map[string]interface{}{
 			"response": map[string]interface{}{
-				"text": responseStr,
+				"text": respText,
 			},
 			"session": req["session"],
 			"version": req["version"],
