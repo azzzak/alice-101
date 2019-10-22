@@ -4,10 +4,10 @@
 
 ## Пример навыка на языке
 
-- [Go](/go/README.md)
-- [JavaScript](/js/README.md)
-- [Python](/python/README.md)
-- [Ruby](/ruby/README.md)
+- [Go](/go)
+- [JavaScript](/js)
+- [Python](/python)
+- [Ruby](/ruby)
 
 _PR с добавлениями приветствуются_ 🤗
 
