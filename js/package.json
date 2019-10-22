@@ -1,0 +1,9 @@
+{
+  "main": "skill.js",
+  "scripts": {
+    "start": "micro -l tcp://127.0.0.1:5000"
+  },
+  "dependencies": {
+    "micro": "^9.3.0"
+  }
+}
